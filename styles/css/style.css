@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.box {
+  background-color: hsl(0, 0%, 100%);
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.07);
+  transition: 0.5s;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.item {
+  display: inline-block;
+  padding: 5px;
+}
+
+.qr-code-image {
+  width: 250px;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.copyright {
+  display: flex;
+  padding-top: 40px;
+}
+
+.copyHover {
+  text-decoration: none;
+  color: hsl(218, 44%, 22%);
+  transition: 0.5s;
+}
+
+.copyHover:hover {
+  opacity: 70%;
+}
